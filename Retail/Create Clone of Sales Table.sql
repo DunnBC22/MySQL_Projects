@@ -1,0 +1,1 @@
+CREATE TABLE SalesClone LIKE Sales;

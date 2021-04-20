@@ -1,0 +1,1 @@
+ALTER TABLE Sales ADD DayWithinYear int AS (DAYOFYEAR(`Sales`.`salesWeek`)) STORED;
